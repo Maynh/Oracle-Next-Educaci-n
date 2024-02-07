@@ -34,3 +34,18 @@ let edad2 = ('Digite su edad :');
 if (edad2 >= 18){
     alert('¡Puede obtener su licencia de conducir!');
 }
+
+
+// Desafio de condicionales y concatenacion 
+
+// 1-Pregunta al usuario qué día de la semana es. Si la respuesta es "Sábado" o "Domingo", muestra "¡Buen fin de semana!". De lo contrario, muestra "¡Buena semana!".
+
+let diaDeLaSemana = prompt ('¿que dia de la semana es?');
+
+if (diaDeLaSemana === 'Sabado' || diaDeLaSemana === 'Domingo'){
+    alert('¡Buen fin de semana!');
+} else {
+    alert('¡Buena semana!');
+}
+
+//2- Verifica si un número ingresado por el usuario es positivo o negativo. Muestra una alerta informativa.

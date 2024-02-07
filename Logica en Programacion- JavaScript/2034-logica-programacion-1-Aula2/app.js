@@ -9,7 +9,7 @@ la comparación
 */
 if (numeroUsuario == numeroSecreto) {
     //Acertamos, fue verdadera la condición
-    alert(`Acertaste, el número es: ${numeroUsuario}`);
+    alert(`Acertaste, el número es: ${numeroUsuario}`);//cambia con las comillas invertidas
 } else {
     //La condición no se cumplió
     alert('Lo siento, no acertaste el número');
